@@ -8,7 +8,7 @@ from getpass import getpass
 email = input('digite seu email')
 password = getpass()
 
-path_to_chromedriver = 'D:\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe'
+path_to_chromedriver = '.\\chromeDriver\\chromedriver.exe'
 
 chrome_options = Options()
 
